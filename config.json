@@ -1,0 +1,64 @@
+{
+  "app_name": "DONUTS-and-Fractals",
+  "version": "1.0.0",
+  "window": {
+    "width": 1280,
+    "height": 720,
+    "min_width": 800,
+    "min_height": 600,
+    "resizable": true,
+    "fullscreen": false
+  },
+  "rendering": {
+    "max_iterations": 256,
+    "resolution": {
+      "width": 1920,
+      "height": 1080
+    },
+    "antialiasing": true,
+    "quality": "high",
+    "fps_limit": 60
+  },
+  "colors": {
+    "default_scheme": "donut",
+    "schemes": {
+      "donut": {
+        "primary": "#FFB6C1",
+        "secondary": "#FFA07A",
+        "accent": "#FF69B4",
+        "background": "#FFF5EE"
+      },
+      "rainbow": {
+        "gradient": true
+      },
+      "fire": {
+        "start": "#FFFF00",
+        "end": "#FF0000"
+      },
+      "ocean": {
+        "start": "#00FFFF",
+        "end": "#000080"
+      },
+      "galaxy": {
+        "start": "#4B0082",
+        "end": "#FF1493"
+      }
+    }
+  },
+  "controls": {
+    "mouse_sensitivity": 1.0,
+    "zoom_speed": 1.2,
+    "rotation_speed": 0.5,
+    "invert_y": false
+  },
+  "export": {
+    "default_format": "png",
+    "quality": 95,
+    "path": "screenshots/"
+  },
+  "performance": {
+    "use_gpu": true,
+    "multi_threading": true,
+    "cache_enabled": true
+  }
+}
